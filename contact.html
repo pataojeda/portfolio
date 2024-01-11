@@ -2,121 +2,99 @@
 <html lang="en">
 
 <head>
-    <script type="text/javascript"
-        src="https://codesandbox.io/public/sse-hooks/sse-hooks.350c89a8d06431c89209943b3882c89f.js"></script>
-    <script type="text/javascript" src="https://codesandbox.io/static/js/banner.d9cb10a38.js"></script>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Contact Patricia, who is a front-end engineer based in Paraguay" />
-    <title>Contact me - Front-end developer - Patricia Ojeda</title>
-
+    <title>Contact Patricia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <script>
+        src =
+            "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js";
+        integrity =
+            "sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0";
+        crossorigin = "anonymous";
+    </script>
+    <script src="https://kit.fontawesome.com/28be1b10f3.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="styles/styles.css" />
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/d4ee5df784.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
-        <nav class="d-flex justify-content-between">
-            <a href="/">
-                <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
-                <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="" />
-            </a>
-            <ul>
-                <li>
-                    <a href="index.html" title="Homepage"> Home</a>
-                </li>
-                <li>
-                    <a href="about.html" title="About Patricia"> About</a>
-                </li>
-                <li>
-                    <a href="work.html" title="Patricia's work"> Work</a>
-                </li>
-                <li class="active">
-                    <a href="contact.html" title="Contact Patricia"> Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="content-container container">
         <div class="content">
-            <h1 class="mb-5">Let's get in touch</h1>
-            <div class="row">
-                <div class="col-md-8">
-                    <form action="https://formspree.io/f/mwkalajy" method="POST" class="border p-3 rounded mb-3">
-                        <div class="mb-3">
-                            <label class="form-label"> Your email: </label>
-                            <input type="email" name="_replyto" class="form-control" required="" autofocus="" />
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label"> Your message: </label>
-                            <textarea name="message" class="form-control" required=""></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-branding">Send</button>
-                    </form>
-                </div>
-                <div class="col-md-4">
-                    <h3>Email</h3>
-                    <p>
-                        <a href="mailto:pata.04@hotmail.com"> pata.04@hotmail.com </a>
-                    </p>
-                    <h3>Twitter</h3>
-                    <p>
-                        <a href="https://www.twitter.com/pataojeda" target="_blank">
-                            @pataojeda
-                        </a>
-                    </p>
-                    <h3>Instagram</h3>
-                    <p>
-                        <a href="https://www.instagram.com/pataojeda" target="_blank">
-                            @pataojeda
-                        </a>
-                    </p>
-                </div>
-            </div>
+            <h1 class="mb-5">Let's get in touch!</h1>
+            <h3>Email</h3>
+            <p>
+                <a href="mailto:pata.04@hotmail.com">
+                    pata.04@hotmail.com</a>
+            </p>
+            <h3>Twitter</h3>
+            <p>
+                <a href="http://www.Twitter.com/pataojeda"> @pataojeda</a>
+            </p>
+            <h3>Instagram</h3>
+            <p><a href="http://www.instagram.com/pataojeda"> @pataojeda</a></p>
         </div>
     </div>
     <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-            <div>
-                <h4>Work Inquiry</h4>
-                <p class="text-muted">Let's work together</p>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Work Inquiry</h2>
+                        <p>Let’s work together and i’ll help you by all my best</p>
+                    </div>
+                    <div class="col">
+                        <a href="" class="btn btn-footer">Learn More</a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="contact.html" class="btn btn-branding mt-3"> Contact me </a>
-            </div>
         </div>
-        <div class="d-flex justify-content-center mb-5">
-            <a href="mailto:pata.04@hotmail.com" class="email-link" title="Email Patricia">
-                pata.04@hotmail.com
-            </a>
+        <p class="footer-contact">
+            pata.04@hotmail.com
+        </p>
         </div>
-        <div class="social-links d-flex justify-content-center">
-            <a href="https://github.com/pataojeda target=" _blank" title="GitHub Profile">
-                <i class="fab fa-github" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.instragram.com/pataojeda" target="_blank" title="Instagram profile">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.twitter.com/pataojeda" target="_blank" title="Twitter Profile">
-                <i class="fab fa-twitter" aria-hidden="true"></i>
-            </a>
+        <div class="d-flex justify-content-center icons">
+            <a href="https://www.instagram.com/pataojeda" title="Instagram" target="_blank"><i
+                    class="fa-brands fa-instagram fa-xl"></i></a>
+            <a href="https://github.com/pataojeda" title="Github" target="_blank"> <i
+                    class="fa-brands fa-github fa-xl"></i></a>
+            <a href="https://www.linkedin.com/in/patricia-ojeda-0865131b1/" title="Linkedin" target="_blank">
+                <i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+
         </div>
-        <p class="text-center mt-5">
-            This project was coded by Pata Ojeda and it is
+        <p class="text-center">This project was coded by Pata Ojeda and it is
             <a href="https://github.com/pataojeda/portfolio" target="_blank">
-                open sourced</a>
+                open-sourced.</a>
         </p>
     </footer>
 </body>
